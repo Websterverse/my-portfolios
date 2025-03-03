@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import { useNavigate } from 'react-router-dom';
@@ -15,7 +15,9 @@ const NAV = () => {
   ];
 
   const navigate = useNavigate();
-
+  useEffect(()=>{
+    navigate('/')
+  })
   const handleClick = () => {
     navigate('/');
   };
