@@ -15,9 +15,10 @@ const NAV = () => {
   ];
 
   const navigate = useNavigate();
-  useEffect(()=>{
-    navigate('/')
-  })
+  useEffect(() => {
+    navigate('/');
+  }, []); // Ensures navigation happens only once on mount
+
   const handleClick = () => {
     navigate('/');
   };
