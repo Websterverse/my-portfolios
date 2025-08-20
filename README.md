@@ -1,8 +1,8 @@
 🚀 Project Title & Tagline
 ==========================
 
-**Project Title:** My App
-**Tagline:** A comprehensive React application showcasing various features and technologies.
+**Project Title:** My-Portfolio
+**Tagline:** My personal portfolio showcasing my projects and skills  
 
 📖 Description
 ===============
